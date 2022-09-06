@@ -1,0 +1,27 @@
+ .image-section{
+    height: 100vh;
+
+    background-color: #31489c;
+}
+
+/* .login-section {
+    width:900px;
+    height:1000px;
+    background-color: azure;
+
+}  */
+
+.container-fluid{
+    height: 100vh;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-section{
+    width:60%;
+    /* height:400px; */
+}
