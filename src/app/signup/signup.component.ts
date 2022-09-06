@@ -31,8 +31,7 @@ export class SignupComponent implements OnInit {
 
   formSubmit(){
     if(this.signUpform.valid){
-      console.log(this.signUpform.value);
-
+     
       this.service.postSignup(this.signUpform.value).subscribe((res:any)=>{
 
         // this.signUp=res.Data;
